@@ -99,7 +99,7 @@ h2 {
   gap: 56px;
   text-align: center;
   width: 1000px;
-  margin-bottom: 56px;
+  margin-bottom: 80px;
 }
 
 .info-item {
@@ -114,4 +114,31 @@ h2 {
   border-radius: 16px;
   height: 150px;
   width: 150px;
+}
+
+/* Quote Section */
+.quote-section {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-container {
+  color: #1F2937;
+  margin: 80px 0;
+  width: 800px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  margin: 16px 0;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: end;
+  margin: 0;
 }
