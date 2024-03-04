@@ -16,13 +16,13 @@ body {
   color: #E5E7EB;
   width: 1000px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 /* Header */
 .header-container {
   padding: 16px 0;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -45,7 +45,7 @@ li a {
 
 /* Hero Section */
 .hero-container {
-  padding: 96px 0;
+  margin: 96px 0;
 }
 
 .hero-left, .hero-right {
@@ -68,7 +68,7 @@ h1 {
   color: #F9FAF8;
   font-size: 48px;
   font-weight: 900;
-  margin: 0 0 18px;
+  margin: 0;
 }
 
 button {
@@ -170,9 +170,8 @@ h3 {
   margin: 4px 0;
 }
 
-.cta-right {
+.cta-container button {
   border: 2px solid #F9FAF8;
-  border-radius: 8px;
 }
 
 /* Footer */
